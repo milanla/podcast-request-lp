@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publish your own Podcasts</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="src/desktop/logo.svg" alt="site-logo">
+  </header>
+  <main class="main">
+    <figure class="main__image">
+      <picture>
+        <source media="(min-width: 1280px)" srcset="src/desktop/image-host.jpg">
+        <img src="src/tablet/image-host.jpg" alt="hero image">
+      </picture>
+    </figure>
+    <div class="main__content">
+      <div class="main__title-block">
+        <h1 class="main__title">
+          <span class="text-primary">Publish your podcasts</span><br>
+          everywhere.
+        </h1>
+
+        <p class="main__lead">
+          Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!
+        </p>
+      </div>
+      <div class="main__press">
+        <div class="press-icon"><img src="src/desktop/spotify.svg" alt="spotify-logo"></div>
+        <div class="press-icon"><img src="src/desktop/apple-podcast.svg" alt="apple-logo"></div>
+        <div class="press-icon"><img src="src/desktop/google-podcasts.svg" alt="google-logo"></div>
+        <div class="press-icon"><img src="src/desktop/pocket-casts.svg" alt="pocket-cast-logo"></div>
+      </div>
+
+      <form class="main__form">
+        <input type="email" id="email" placeholder="Email address">
+        <button type="submit">Request Access</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

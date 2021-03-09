@@ -1,0 +1,14 @@
+{
+  "name": "pod-request-access-landing-page",
+  "description": "Publish your own Podcasts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/scss/ -o src/css/ --recursive"
+  },
+  "author": "Milan Sacher",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
